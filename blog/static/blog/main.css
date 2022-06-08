@@ -1,0 +1,46 @@
+body {
+    background-color: #212121;
+    height: 100%;
+    width: 100%;
+    font-size: 1vw;
+}
+
+.std p {
+    margin: 0.5vh 0 0;
+}
+
+.stdin {
+    height: 1vh;
+    font-size: 1vw;
+    color: white;
+}
+
+.stdin input[type=text] {
+    border: none;
+    display: inline;
+    background-color: transparent;
+    width: 87vw;
+    color: white;
+}
+
+.stdin input[type=text]:focus {
+    outline: none;
+}
+
+
+
+.green {
+    color: #5fd258;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.lightblue {
+    color: #63c6d2
+}
+
+.red {
+    color: #d92c4d;
+}

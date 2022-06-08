@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site_name }}</title>
+    <link rel="stylesheet" href="{% static 'blog/main.css' %}">
+    <script src="{% static 'blog/main.js' %}"></script>
+    <script src="{% static 'blog/motd.js' %}"></script>
+    <script src="{% static 'blog/commands.js' %}"></script>
+</head>
+<body>
+    <div style="margin-left: 1vw">
+        <div class="stdout std" id="stdout"></div>
+        <div class="stdin std green">
+            <p>Guest@{{ site_name|capfirst }} ~ % <input spellcheck=false type=text id="stdin" onkeydown="send(this)" autofocus></p>
+        </div>
+    </div>
+
+</body>
+</html>
